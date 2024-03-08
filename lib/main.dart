@@ -6,6 +6,9 @@ import 'package:user_repository/user_repository.dart';
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
   await Firebase.initializeApp();
-
-  runApp(MyApp(FirebaseUserRepo()));
+  runApp(
+    MyApp(
+      FirebaseUserRepo(),
+    ),
+  );
 }

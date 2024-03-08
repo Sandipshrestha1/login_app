@@ -7,6 +7,6 @@ class MyApp extends StatelessWidget {
   const MyApp(this.userRepository, {super.key});
   @override
   Widget build(BuildContext context) {
-    return Placeholder();
+    return const Placeholder();
   }
 }
